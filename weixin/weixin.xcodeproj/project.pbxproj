@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED8469B71EB043860012439F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8469B61EB043860012439F /* main.m */; };
+		ED8469BA1EB043860012439F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8469B91EB043860012439F /* AppDelegate.m */; };
+		ED8469BD1EB043860012439F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8469BC1EB043860012439F /* ViewController.m */; };
+		ED8469C01EB043860012439F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8469BE1EB043860012439F /* Main.storyboard */; };
+		ED8469C21EB043860012439F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8469C11EB043860012439F /* Assets.xcassets */; };
+		ED8469C51EB043860012439F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8469C31EB043860012439F /* LaunchScreen.storyboard */; };
+		ED8469D01EB043860012439F /* weixinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8469CF1EB043860012439F /* weixinTests.m */; };
+		ED8469DB1EB043860012439F /* weixinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8469DA1EB043860012439F /* weixinUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED8469CC1EB043860012439F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8469AA1EB043860012439F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8469B11EB043860012439F;
+			remoteInfo = weixin;
+		};
+		ED8469D71EB043860012439F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8469AA1EB043860012439F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8469B11EB043860012439F;
+			remoteInfo = weixin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED8469B21EB043860012439F /* weixin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weixin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8469B61EB043860012439F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED8469B81EB043860012439F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED8469B91EB043860012439F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED8469BB1EB043860012439F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED8469BC1EB043860012439F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED8469BF1EB043860012439F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED8469C11EB043860012439F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED8469C41EB043860012439F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED8469C61EB043860012439F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8469CB1EB043860012439F /* weixinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weixinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8469CF1EB043860012439F /* weixinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weixinTests.m; sourceTree = "<group>"; };
+		ED8469D11EB043860012439F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8469D61EB043860012439F /* weixinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weixinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8469DA1EB043860012439F /* weixinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weixinUITests.m; sourceTree = "<group>"; };
+		ED8469DC1EB043860012439F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED8469AF1EB043860012439F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8469C81EB043860012439F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8469D31EB043860012439F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED8469A91EB043860012439F = {
+			isa = PBXGroup;
+			children = (
+				ED8469B41EB043860012439F /* weixin */,
+				ED8469CE1EB043860012439F /* weixinTests */,
+				ED8469D91EB043860012439F /* weixinUITests */,
+				ED8469B31EB043860012439F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED8469B31EB043860012439F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED8469B21EB043860012439F /* weixin.app */,
+				ED8469CB1EB043860012439F /* weixinTests.xctest */,
+				ED8469D61EB043860012439F /* weixinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED8469B41EB043860012439F /* weixin */ = {
+			isa = PBXGroup;
+			children = (
+				ED8469B81EB043860012439F /* AppDelegate.h */,
+				ED8469B91EB043860012439F /* AppDelegate.m */,
+				ED8469BB1EB043860012439F /* ViewController.h */,
+				ED8469BC1EB043860012439F /* ViewController.m */,
+				ED8469BE1EB043860012439F /* Main.storyboard */,
+				ED8469C11EB043860012439F /* Assets.xcassets */,
+				ED8469C31EB043860012439F /* LaunchScreen.storyboard */,
+				ED8469C61EB043860012439F /* Info.plist */,
+				ED8469B51EB043860012439F /* Supporting Files */,
+			);
+			path = weixin;
+			sourceTree = "<group>";
+		};
+		ED8469B51EB043860012439F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED8469B61EB043860012439F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED8469CE1EB043860012439F /* weixinTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED8469CF1EB043860012439F /* weixinTests.m */,
+				ED8469D11EB043860012439F /* Info.plist */,
+			);
+			path = weixinTests;
+			sourceTree = "<group>";
+		};
+		ED8469D91EB043860012439F /* weixinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED8469DA1EB043860012439F /* weixinUITests.m */,
+				ED8469DC1EB043860012439F /* Info.plist */,
+			);
+			path = weixinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED8469B11EB043860012439F /* weixin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8469DF1EB043860012439F /* Build configuration list for PBXNativeTarget "weixin" */;
+			buildPhases = (
+				ED8469AE1EB043860012439F /* Sources */,
+				ED8469AF1EB043860012439F /* Frameworks */,
+				ED8469B01EB043860012439F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weixin;
+			productName = weixin;
+			productReference = ED8469B21EB043860012439F /* weixin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED8469CA1EB043860012439F /* weixinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8469E21EB043860012439F /* Build configuration list for PBXNativeTarget "weixinTests" */;
+			buildPhases = (
+				ED8469C71EB043860012439F /* Sources */,
+				ED8469C81EB043860012439F /* Frameworks */,
+				ED8469C91EB043860012439F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED8469CD1EB043860012439F /* PBXTargetDependency */,
+			);
+			name = weixinTests;
+			productName = weixinTests;
+			productReference = ED8469CB1EB043860012439F /* weixinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED8469D51EB043860012439F /* weixinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8469E51EB043860012439F /* Build configuration list for PBXNativeTarget "weixinUITests" */;
+			buildPhases = (
+				ED8469D21EB043860012439F /* Sources */,
+				ED8469D31EB043860012439F /* Frameworks */,
+				ED8469D41EB043860012439F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED8469D81EB043860012439F /* PBXTargetDependency */,
+			);
+			name = weixinUITests;
+			productName = weixinUITests;
+			productReference = ED8469D61EB043860012439F /* weixinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED8469AA1EB043860012439F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "曾彬";
+				TargetAttributes = {
+					ED8469B11EB043860012439F = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					ED8469CA1EB043860012439F = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED8469B11EB043860012439F;
+					};
+					ED8469D51EB043860012439F = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED8469B11EB043860012439F;
+					};
+				};
+			};
+			buildConfigurationList = ED8469AD1EB043860012439F /* Build configuration list for PBXProject "weixin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED8469A91EB043860012439F;
+			productRefGroup = ED8469B31EB043860012439F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED8469B11EB043860012439F /* weixin */,
+				ED8469CA1EB043860012439F /* weixinTests */,
+				ED8469D51EB043860012439F /* weixinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED8469B01EB043860012439F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8469C51EB043860012439F /* LaunchScreen.storyboard in Resources */,
+				ED8469C21EB043860012439F /* Assets.xcassets in Resources */,
+				ED8469C01EB043860012439F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8469C91EB043860012439F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8469D41EB043860012439F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED8469AE1EB043860012439F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8469BD1EB043860012439F /* ViewController.m in Sources */,
+				ED8469BA1EB043860012439F /* AppDelegate.m in Sources */,
+				ED8469B71EB043860012439F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8469C71EB043860012439F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8469D01EB043860012439F /* weixinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8469D21EB043860012439F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8469DB1EB043860012439F /* weixinUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED8469CD1EB043860012439F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED8469B11EB043860012439F /* weixin */;
+			targetProxy = ED8469CC1EB043860012439F /* PBXContainerItemProxy */;
+		};
+		ED8469D81EB043860012439F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED8469B11EB043860012439F /* weixin */;
+			targetProxy = ED8469D71EB043860012439F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED8469BE1EB043860012439F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8469BF1EB043860012439F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED8469C31EB043860012439F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8469C41EB043860012439F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED8469DD1EB043860012439F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED8469DE1EB043860012439F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED8469E01EB043860012439F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = weixin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zb.weixin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED8469E11EB043860012439F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = weixin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zb.weixin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED8469E31EB043860012439F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = weixinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zb.weixinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weixin.app/weixin";
+			};
+			name = Debug;
+		};
+		ED8469E41EB043860012439F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = weixinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zb.weixinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weixin.app/weixin";
+			};
+			name = Release;
+		};
+		ED8469E61EB043860012439F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = weixinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zb.weixinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = weixin;
+			};
+			name = Debug;
+		};
+		ED8469E71EB043860012439F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = weixinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zb.weixinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = weixin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED8469AD1EB043860012439F /* Build configuration list for PBXProject "weixin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8469DD1EB043860012439F /* Debug */,
+				ED8469DE1EB043860012439F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8469DF1EB043860012439F /* Build configuration list for PBXNativeTarget "weixin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8469E01EB043860012439F /* Debug */,
+				ED8469E11EB043860012439F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED8469E21EB043860012439F /* Build configuration list for PBXNativeTarget "weixinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8469E31EB043860012439F /* Debug */,
+				ED8469E41EB043860012439F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED8469E51EB043860012439F /* Build configuration list for PBXNativeTarget "weixinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8469E61EB043860012439F /* Debug */,
+				ED8469E71EB043860012439F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED8469AA1EB043860012439F /* Project object */;
+}
